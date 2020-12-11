@@ -3,9 +3,9 @@
 ## 特色
 - 极简，几乎没有冗余的文件，完全从0开始使用OpenCore实现没有历史包袱。
 带图形化启动菜单的EFI体积2.9M如下：
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201211000633990.png)
+![efi文件体积](https://img-blog.csdnimg.cn/20201211000633990.png)
 
-- EFI制作过程，全程记录。
+- EFI制作过程，全程记录。
 [《手把手教你安装黑苹果之openCore-0.6.3 EFI制作全过程，非常详细》](https://blog.csdn.net/lxyoucan/article/details/110730680)
 - 因为极简所有开机启动速度较快。
 从open core的启动菜单按回车，到显示桌面（使用自动登录不用输密码）
@@ -28,12 +28,16 @@
 - 触控板正常
 - AppStore正常使用
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201211001142418.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201211001203529.png)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201211001217621.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201211001240901.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201211001401645.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/20201211101814337.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
+![macOS系统版本信息](https://img-blog.csdnimg.cn/20201211001142418.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
+![电池正常](https://img-blog.csdnimg.cn/20201211001203529.png)
+
+![触控板正常](https://img-blog.csdnimg.cn/20201211001217621.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
+
+![蓝牙正常](https://img-blog.csdnimg.cn/20201211001240901.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
+
+![有线网，无线网正常](https://img-blog.csdnimg.cn/20201211001401645.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
+
+![AppStore正常](https://img-blog.csdnimg.cn/20201211101814337.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
 
 ## 特别说明
 此EFI今天刚制作完成（2020年12月11日），没有经过长期的测试。是否需要下载自行判断。**制作不易，不喜勿喷。**
