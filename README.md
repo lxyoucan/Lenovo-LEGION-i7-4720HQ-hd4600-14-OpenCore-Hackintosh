@@ -3,7 +3,7 @@
 ## 特色
 - 极简，几乎没有冗余的文件，完全从0开始使用OpenCore实现没有历史包袱。
 带图形化启动菜单的EFI体积2.9M如下：
-![efi文件体积](https://img-blog.csdnimg.cn/20201211000633990.png)
+
 
 - EFI制作过程，全程记录。
 [《手把手教你安装黑苹果之openCore-0.6.3 EFI制作全过程，非常详细》](https://blog.csdn.net/lxyoucan/article/details/110730680)
@@ -15,36 +15,40 @@
 这个大家可以自行测试，我没有必要报假数据。
 
 
-## 正常驱动的
+## 目前成果
 - 核显图形加速正常
+- 声卡AppleALC实现，立体声正常
+- 睡眠正常，唤醒正常，盒盖睡眠正常
 - 蓝牙正常
 - usb正常
 - 键盘鼠标正常
 - 有线网卡正常（内置的无线网卡无法驱动，无线网使用外接usb网卡）
+- 快捷键调节亮度正常
 - HDMI正常
 - 图形化启动界面，支持windows+macOS双系统启动
-- 基于最新的open core 0.6.4实现（2020-12-11这个时间最新）
+- 基于最新的open core 0.6.4实现（2020-12-28这个时间最新）
 - 电池显示正常
 - 触控板正常
 - AppStore正常使用
+## 有待完善的
+- 睡眠有很低的概率会出现自动唤醒 ，因为出现几率很低我不太好调试。后续观察中。
 
-![macOS系统版本信息](https://img-blog.csdnimg.cn/20201211001142418.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201228230259266.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
+
 ![电池正常](https://img-blog.csdnimg.cn/20201211001203529.png)
-
 ![触控板正常](https://img-blog.csdnimg.cn/20201211001217621.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
-
 ![蓝牙正常](https://img-blog.csdnimg.cn/20201211001240901.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
-
 ![有线网，无线网正常](https://img-blog.csdnimg.cn/20201211001401645.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
-
 ![AppStore正常](https://img-blog.csdnimg.cn/20201211101814337.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
-
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20201222163956476.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
 ## 特别说明
-此EFI今天刚制作完成（2020年12月11日），没有经过长期的测试。是否需要下载自行判断。**制作不易，不喜勿喷。**
+此EFI首次在2020年12月11日开始使用，经过17天的测试，基本能够稳定运行。依然在完善中，是否需要下载自行判断。**制作不易，不喜勿喷。**
 
-## 个人使用感受
-之前用的是论坛里大佬分享的clover efi，外接HDMI显示器总觉得字体模糊。我这个版本不知道是不心理作用，感觉清晰一点了。
 
 ## 下载地址
-[https://download.csdn.net/download/lxyoucan/13627320](https://download.csdn.net/download/lxyoucan/13627320)
 
+### csdn
+[https://download.csdn.net/download/lxyoucan/13973923](https://download.csdn.net/download/lxyoucan/13973923)
+
+### github
+[https://github.com/lxyoucan/Lenovo-LEGION-i7-4720HQ-hd4600-14-OpenCore-Hackintosh](https://github.com/lxyoucan/Lenovo-LEGION-i7-4720HQ-hd4600-14-OpenCore-Hackintosh)
