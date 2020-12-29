@@ -557,24 +557,6 @@
 				<key>Arch</key>
 				<string>Any</string>
 				<key>BundlePath</key>
-				<string>RtWlanU.kext</string>
-				<key>Comment</key>
-				<string></string>
-				<key>Enabled</key>
-				<true/>
-				<key>ExecutablePath</key>
-				<string>Contents/MacOS/RtWlanU</string>
-				<key>MaxKernel</key>
-				<string></string>
-				<key>MinKernel</key>
-				<string></string>
-				<key>PlistPath</key>
-				<string>Contents/Info.plist</string>
-			</dict>
-			<dict>
-				<key>Arch</key>
-				<string>Any</string>
-				<key>BundlePath</key>
 				<string>SMCBatteryManager.kext</string>
 				<key>Comment</key>
 				<string></string>
@@ -1175,7 +1157,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02539501GUGDQPAD</string>
+			<string>C02550207QXGDQPA8</string>
 			<key>ProcessorType</key>
 			<integer>1797</integer>
 			<key>ROM</key>
@@ -1187,9 +1169,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro11,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C02QG0BDG8WN</string>
+			<string>C02QT5Y6G8WN</string>
 			<key>SystemUUID</key>
-			<string>713563BB-5046-4A2C-86DB-3872DD84D0AE</string>
+			<string>543C6A6D-B48D-4CC5-9331-5EA5AE9353C6</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
