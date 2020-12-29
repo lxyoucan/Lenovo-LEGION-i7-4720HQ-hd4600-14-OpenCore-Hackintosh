@@ -32,6 +32,14 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-GPRW.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPRW.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-HPET_RTC_TIMR-fix.aml</string>
 				<key>Enabled</key>
 				<true/>
@@ -1157,7 +1165,7 @@
 			<key>AdviseWindows</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02550207QXGDQPA8</string>
+			<string>C02508100CDGDQPCB</string>
 			<key>ProcessorType</key>
 			<integer>1797</integer>
 			<key>ROM</key>
@@ -1169,9 +1177,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro11,4</string>
 			<key>SystemSerialNumber</key>
-			<string>C02QT5Y6G8WN</string>
+			<string>C02P90XKG8WN</string>
 			<key>SystemUUID</key>
-			<string>543C6A6D-B48D-4CC5-9331-5EA5AE9353C6</string>
+			<string>3DB83271-D50D-40D2-AACB-A84FEF7AEC24</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
