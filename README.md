@@ -23,13 +23,17 @@
 - usb正常
 - 键盘鼠标正常
 - 有线网卡正常（内置的无线网卡无法驱动，无线网使用外接usb网卡）
+- 摄像头正常
 - 快捷键调节亮度正常
 - HDMI正常
 - 图形化启动界面，支持windows+macOS双系统启动
-- 基于最新的open core 0.6.4实现（2020-12-28这个时间最新）
+- 基于最新的open core 0.6.5实现（2021-01-05这个时间最新）
 - 电池显示正常
 - 触控板正常
 - AppStore正常使用
+- 支持HDMI音频。
+如果不喜欢开始，关闭方法见：
+[《OpenCore黑苹果之拯救者14（HD4600）开启HDMI音频》](https://blog.csdn.net/lxyoucan/article/details/111877620)
 ## 有待完善的
 - 睡眠有很低的概率会出现自动唤醒 ，因为出现几率很低我不太好调试。后续观察中。
 
@@ -44,11 +48,22 @@
 ## 特别说明
 此EFI首次在2020年12月11日开始使用，经过17天的测试，基本能够稳定运行。依然在完善中，是否需要下载自行判断。**制作不易，不喜勿喷。**
 
+## 更新
+2020年12月29更新
+[https://download.csdn.net/download/lxyoucan/13980322](https://download.csdn.net/download/lxyoucan/13980322)
 
-## 下载地址
+- 修复了在启动界面不显示Mac Install那个安装系统的图标
+- 设置安装界面默认为中文
+- 解决windows无法正常启动的问题
 
-### csdn
-[https://download.csdn.net/download/lxyoucan/13973923](https://download.csdn.net/download/lxyoucan/13973923)
+2021年1月5日更新
+[https://download.csdn.net/download/lxyoucan/14029921](https://download.csdn.net/download/lxyoucan/14029921)
+
+- 升级最新的OpenCore版本 0.6.5
+- 优化启动项图标
+- 解决某种特殊情况下，电池显示正在充电：1%
+- 禁止OpenCore修改电脑启动顺序
+
 
 ### github
 [https://github.com/lxyoucan/Lenovo-LEGION-i7-4720HQ-hd4600-14-OpenCore-Hackintosh](https://github.com/lxyoucan/Lenovo-LEGION-i7-4720HQ-hd4600-14-OpenCore-Hackintosh)
