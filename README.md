@@ -46,15 +46,19 @@
 ![AppStore正常](https://img-blog.csdnimg.cn/20201211101814337.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20201222163956476.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
 ## 特别说明
-此EFI首次在2020年12月11日开始使用，经过17天的测试，基本能够稳定运行。依然在完善中，是否需要下载自行判断。**制作不易，不喜勿喷。**
+此EFI首次在2020年12月11日开始使用，目前为止，基本能够稳定运行。依然在完善中，是否需要下载自行判断。**制作不易，不喜勿喷。**
 
 ## 更新
-2020年12月29更新
-[https://download.csdn.net/download/lxyoucan/13980322](https://download.csdn.net/download/lxyoucan/13980322)
+2021年4月12日更新
+[https://download.csdn.net/download/lxyoucan/16629928](https://download.csdn.net/download/lxyoucan/16629928)
+- 升级最新的OpenCore版本 0.6.8
+- 升级至VirtualSMC-1.2.2
+- 升级至WhateverGreen-1.4.9
+- 升级到Lilu-1.5.2
+- 启动界面支持背景图显示
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210412104104659.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2x4eW91Y2Fu,size_16,color_FFFFFF,t_70)
 
-- 修复了在启动界面不显示Mac Install那个安装系统的图标
-- 设置安装界面默认为中文
-- 解决windows无法正常启动的问题
+
 
 2021年1月5日更新
 [https://download.csdn.net/download/lxyoucan/14029921](https://download.csdn.net/download/lxyoucan/14029921)
@@ -63,6 +67,16 @@
 - 优化启动项图标
 - 解决某种特殊情况下，电池显示正在充电：1%
 - 禁止OpenCore修改电脑启动顺序
+
+
+2020年12月29更新
+[https://download.csdn.net/download/lxyoucan/13980322](https://download.csdn.net/download/lxyoucan/13980322)
+
+- 修复了在启动界面不显示Mac Install那个安装系统的图标
+- 设置安装界面默认为中文
+- 解决windows无法正常启动的问题
+
+
 
 
 ### github
